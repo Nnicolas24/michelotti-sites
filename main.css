@@ -1,0 +1,42 @@
+/* COLORES EXACTOS MOGLIANI - NO AZULES */
+:root {
+    --primary-color: #278995;
+    --secondary-color: #f8fafa;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: var(--text-color);
+    background: white;
+}
+
+.primary {
+    color: #278995 !important;
+}
+
+.btn-primary {
+    background-color: #278995 !important;
+    border-color: #278995 !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #1e6b75 !important;
+    border-color: #1e6b75 !important;
+}
+
+.header-bar {
+    background-color: #278995 !important;
+}
+
+.top-titles {
+    color: #278995 !important;
+}
+
+.top-titles::before {
+    background-color: #278995 !important;
+}
+
+/* RESTO DEL CSS VIENE AQUÍ - COPIÁ TODO EL CONTENIDO DEL main.css QUE TE PASÉ ANTES */
