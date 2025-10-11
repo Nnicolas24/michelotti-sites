@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="title" content="Derecho Previsional - Estudio Jurídico Michelotti & Asocs." />
+    <meta name="description" content="Especialistas en Derecho Previsional en Córdoba. Asesoría legal personalizada en jubilaciones, pensiones, reajustes y trámites previsionales. Consultá hoy con nuestro equipo." />
+    <meta name="keywords" content="derecho previsional, jubilaciones, pensiones, reajustes, abogados cordoba, asesoría legal" />
+    <title>Derecho Previsional - Estudio Jurídico Michelotti & Asocs.</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Icons FontAwesome  -->
+    <script src="https://kit.fontawesome.com/f678e2a913.js" crossorigin="anonymous"></script>
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="/frontend/css/main.css" rel="stylesheet">
+</head>
+
+<body id="app">
+    <!-- SVG ICONS (pueden quedar aquí, así como estaban en el original) -->
+    <!-- ... (SVG symbols omitidos para brevedad, usa los del original) ... -->
+
+    <div class="sticky">
+        <header class="header">
+            <div class="header-main">
+                <a class="logo" href="/">
+                    <img src="/frontend/images/logo-header.svg" alt="Estudio Jurídico Michelotti & Asocs.">
+                    <h1 class="sr-only">Estudio Jurídico Michelotti & Asocs.</h1>
+                </a>
+
+                <div class="header__right-content">
+                    <div class="header-bar">
+                        <ul class="header-info">
+                            <li>
+                                <i class="fa fa-phone icon" aria-hidden="true"></i>
+                                <a href="tel:+543518760575">(351) 876 0575</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                                <a class="text-white" href="https://goo.gl/maps/ca5QXn6PPpk" target="_blank">Gregorio de Laferrere 2130 Local 2, Córdoba.</a>
+                            </li>
+                        </ul>
+                        <div class="social-header">
+                            <a href="https://facebook.com/estudiojuridicomichelottiyasocs" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com/estudio.michelotti" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nicolas-michelotti-806241192/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="https://goo.gl/maps/ca5QXn6PPpk" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                            <a href="https://wa.me/+543518760575?text=Hola%20estoy%20en%20la%20pagina%20web%20y%20quiero%20hacer%20una%20consulta!" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <!-- Menú de navegación -->
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="/" class="">Inicio</a></li>  
+                            <li>
+                                <a href="/areas-de-practica.html">Áreas de práctica</a>
+                                <ul>
+                                    <li><a href="/derecho-familia.html">Derecho de Familia</a></li>
+                                    <li><a href="/derecho-sucesorio.html">Derecho Sucesorio</a></li>
+                                    <li><a href="/derecho-previsional.html" class="active">Derecho Previsional</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/estudio-abogados-cordoba.html">Estudio</a></li>
+                            <li><a href="/blog.html">Blog</a></li>
+                            <li><a href="/contacto.html">Contacto</a></li>
+                            <li class="hidden-until-lg"><a href="" class="btn btn-secondary" data-toggle="modal" data-target="#contactModal">Agendar cita</a></li>
+                        </ul>
+                        <!-- Redes sociales mobile -->
+                        <div class="hidden-from-lg">
+                            <ul class="social">
+                                <li><a class="social-link btn btn-facebook" href="https://facebook.com/estudiojuridicomichelottiyasocs" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#svg-facebook"/></svg><span class="sr-only">Facebook</span></a></li>
+                                <li><a class="social-link btn btn-instagram" href="https://instagram.com/estudio.michelotti" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#svg-instagram"/></svg><span class="sr-only">Instagram</span></a></li>
+                                <li><a class="social-link btn btn-linkedin" href="https://www.linkedin.com/in/nicolas-michelotti-806241192/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#svg-linkedin"/></svg><span class="sr-only">LinkedIn</span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <button class="header-btn btn-toggle" data-target="#app" data-toggle="nav-open" type="button">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#svg-menu" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+    </div>
+
+    <div class="section-header">
+        <div class="row justify-center">
+            <div class="col-xs-12" data-aos="fade-right" data-aos-duration="600">
+                <h2 class="section-title">Derecho Previsional</h2>
+                <div class="divider"></div>
+            </div>
+        </div>
+    </div>
+    <section class="blog">
+        <div class="section content py-0">
+            <div class="row">
+                <div class="col-xs-12 col-lg-8 mb-4 lg:mb-0">
+                    <h2>Derecho Previsional</h2>
+                    <p>En <strong>Estudio Jurídico Michelotti & Asocs.</strong> somos especialistas en Derecho Previsional. Brindamos asesoramiento integral y representación en trámites de jubilaciones, pensiones, retiros, reajustes, moratorias, reconocimiento de servicios y defensa ante ANSES y organismos previsionales.</p>
+                    <p>Te ayudamos a:</p>
+                    <ul class="ul-svs">
+                        <li><strong>Iniciar y tramitar jubilaciones ordinarias y especiales.</strong></li>
+                        <li><strong>Gestionar pensiones por fallecimiento de titulares.</strong></li>
+                        <li><strong>Solicitar reajustes de haberes y movilidad jubilatoria.</strong></li>
+                        <li><strong>Reclamar moratorias y reconocimientos de aportes.</strong></li>
+                        <li><strong>Defender tus derechos ante ANSES y otros entes previsionales.</strong></li>
+                        <li><strong>Planificar tu retiro y optimizar tus beneficios.</strong></li>
+                    </ul>
+                    <p>Ofrecemos atención personalizada, claridad en la información y acompañamiento en cada etapa del proceso previsional.</p>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <div style="position: sticky; top: 9rem">
+                        <form class="form validation form-compact" action="/enviar-consulta.html" method="post">
+                            <div class="loading"></div>
+                            <input type="hidden" name="contact[url]" id="contact_url" />
+                            <input type="hidden" name="contact[estate_title]" id="contact_estate_title" />
+                            <input type="hidden" name="contact[_csrf_token]" value="" id="contact__csrf_token" />
+                            <h3 class="h3">Consultá hoy un Abogado</h3>
+                            <div class="divider"></div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <input placeholder="Tu Nombre" type="text" name="contact[full_name]" class="form-control form-control--required" id="contact_full_name" required />
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <input placeholder="Whatsapp (sin 0, sin 15)" type="text" name="contact[phone]" class="form-control" id="contact_phone" required />
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <input placeholder="E-mail" type="email" name="contact[email]" class="form-control form-control--required" id="contact_email" required />
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col--gap-sm">
+                                    <div class="form-group">
+                                        <textarea rows="3" cols="30" placeholder="Comenta brevemente tu caso.." name="contact[message]" class="form-control" id="contact_message" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-block btn-round" type="submit">Quiero que me Contacten</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-5 pr-5">
+                    <img src="/frontend/images/logo-footer.svg" class="footer__logo hidden-until-md" alt="Abogados Cordoba">
+                    <p class="hidden-until-md">Estudio Jurídico Michelotti & Asocs. en Córdoba, especialistas en Derecho de Familia, Sucesorio y Previsional.</p>
+                    <div class="hidden-until-md">
+                        <ul class="social">
+                            <li class="social-item">
+                                <a class="social-link btn btn-facebook" href="https://facebook.com/estudiojuridicomichelottiyasocs" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-facebook"/></svg>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link btn btn-instagram" href="https://instagram.com/estudio.michelotti" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-instagram"/></svg>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link btn btn-linkedin" href="https://www.linkedin.com/in/nicolas-michelotti-806241192/" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-linkedin"/></svg>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 hidden-until-md">
+                    <h6>Áreas de práctica</h6>
+                    <div class="divider"></div>
+                    <ul>
+                        <li><a href="/derecho-familia.html">Derecho de Familia</a></li>
+                        <li><a href="/derecho-sucesorio.html">Derecho Sucesorio</a></li>
+                        <li><a href="/derecho-previsional.html">Derecho Previsional</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h6>Contacto</h6>
+                    <div class="divider"></div>
+                    <ul class="contact">
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use xlink:href="#svg-tel" /></svg>
+                            <a class="fs-18 fw-700" href="tel:+543518760575">(351) 876 0575</a>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use xlink:href="#svg-email" /></svg>
+                            <a href="mailto:estudiojuridico.michelotti@gmail.com">estudiojuridico.michelotti@gmail.com</a>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use xlink:href="#svg-pin" /></svg>
+                            <a href="https://goo.gl/maps/ca5QXn6PPpk" target="_blank" class="">Gregorio de Laferrere 2130 Local 2, Córdoba, Argentina.</a>
+                        </li>
+                    </ul>
+                    <a href="https://goo.gl/maps/ca5QXn6PPpk" target="_blank" class=""><img src="/frontend/images/google-reviews.svg" alt="Abogados destacados en Google" class=""></a>
+                </div>
+                <div class="col-xs-12">
+                    <div class="hidden-from-md">
+                        <ul class="social">
+                            <li class="social-item">
+                                <a class="social-link btn btn-facebook" href="https://facebook.com/estudiojuridicomichelottiyasocs" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-facebook"/></svg>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link btn btn-instagram" href="https://instagram.com/estudio.michelotti" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-instagram"/></svg>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link btn btn-linkedin" href="https://www.linkedin.com/in/nicolas-michelotti-806241192/" target="_blank">
+                                    <svg class="icon" aria-hidden="true"><use xlink:href="#svg-linkedin"/></svg>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="mobile-reverse">
+                <p>
+                    &copy; Estudio Jurídico Michelotti & Asocs. 2025.
+                    <span class="mx-2">|</span>
+                    <a href="/aviso-legal.html" class="text-uppercase">Aviso Legal</a>
+                </p>
+            </div>
+            <button class="scroll-top" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+543518760575?text=Hola%20estoy%20en%20la%20pagina%20web%20y%20quiero%20hacer%20una%20consulta!" target="_blank" class="btn-whatsapp-pulse">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- MODAL Contacto -->
+    <div class="modal-general modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title stix mt-1 pl-1 mb-0 text-primary" id="contactModalLabel">Quiero que me contacten</h2>                      
+            <button type="button" class="close stix" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body py-3 px-3">
+          <p class="mb-3 fw-400">Dejanos tus datos para ser contactado por nuestro equipo y coordinar día/hora de atención.</p>
+          <form class="form validation "
+              action="/enviar-consulta.html" method="post">
+            <div class="loading"></div>
+            <input type="hidden" name="contact[url]" id="contact_url" />
+            <input type="hidden" name="contact[estate_title]" id="contact_estate_title" />
+            <input type="hidden" name="contact[_csrf_token]" value="" id="contact__csrf_token" />
+            <div class="row">
+              <div class="col-xs-12 col-lg-4">
+                <div class="form-group">
+                  <input placeholder="Tu Nombre" type="text" name="contact[full_name]" class="form-control form-control--required" id="contact_full_name" required />
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                <div class="form-group">
+                  <input placeholder="Whatsapp (sin 0, sin 15)" type="text" name="contact[phone]" class="form-control" id="contact_phone" required />
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                <div class="form-group">
+                  <input placeholder="E-mail" type="email" name="contact[email]" class="form-control form-control--required" id="contact_email" required />
+                </div>
+              </div>
+              <div class="col-xs-12 col--gap-sm">
+                <div class="form-group">
+                  <textarea rows="8" cols="30" placeholder="Comenta brevemente tu caso.." name="contact[message]" class="form-control" id="contact_message" required></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-secondary btn-lg btn-round px-5" type="submit">Enviar</button>
+            </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+            <div class="text-center small">Nuestro equipo te contactará para coordinar día/hora de atención.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6509b3523b8450001ac45f77&product=sop' async='async'></script>
+    <script src="/frontend/vendor/formvalidation/formValidation.min.js"></script>
+    <script src="/frontend/vendor/formvalidation/bootstrap.min.js"></script>
+    <script src="/frontend/vendor/bootstrap/modal.min.js"></script>
+    <script src="/frontend/js/main.js"></script>
+    <script src="/frontend/js/counter.js"></script>
+    <script defer="defer" src="/frontend/js/content-protector.js"></script>
+</body>
+</html>
