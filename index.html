@@ -1,190 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-
-    <meta name="title" content="Estudio Jurídico Michelotti y Asociados - Córdoba">
-    <meta name="description" content="Estudio de Abogados en Córdoba especialistas en Derecho de Familia, Sucesorio y Previsional.">
-    <meta name="keywords" content="derecho de familia, sucesorio, previsional, divorcios, herencias, jubilaciones">
-    <title>Estudio Jurídico Michelotti y Asociados - Córdoba</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="manifest" href="images/site.webmanifest">
-    <link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
-    <link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=STIX+Two+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f678e2a913.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>Estudio Jurídico Michelotti</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=STIX+Two+Text:wght@400&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- Íconos SVG -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
-        <symbol id="svg-logo" viewBox="0 0 263 79">…</symbol>
-        <symbol id="svg-menu" viewBox="0 0 64 44.8">…</symbol>
-        <symbol id="svg-close" viewBox="0 0 24 24">…</symbol>
-        <symbol id="svg-pin" viewBox="0 0 24 24">…</symbol>
-    </svg>
 
-    <!-- Header -->
-    <header class="header sticky">
-        <div class="header-bar">
-            <div class="container">
-                <ul class="header-info">
-                    <li><i class="fas fa-phone icon"></i><a href="tel:3518760575">(0351) 876-0575</a></li>
-                    <li><i class="fas fa-envelope icon"></i><a href="mailto:estudiojuridico.michelotti@gmail.com">estudiojuridico.michelotti@gmail.com</a></li>
-                </ul>
-                <div class="social social-header">
-                    <a href="#" class="btn btn-facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-linkedin"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="header-main">
-            <div class="container">
-                <div class="header__right-content">
-                    <a href="#" class="logo">
-                        <svg class="logo-svg"><use xlink:href="#svg-logo"></use></svg>
-                        <span>Estudio Jurídico<br><strong>Michelotti y Asociados</strong></span>
-                    </a>
-                    <nav class="nav">
-                        <ul>
-                            <li><a href="#hero">Inicio</a></li>
-                            <li><a href="#servicios">Áreas de Práctica</a></li>
-                            <li><a href="#estudio">Estudio</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contacto">Contacto</a></li>
-                        </ul>
-                        <a href="#appointment" class="btn btn-secondary">AGENDAR CITA</a>
-                    </nav>
-                    <button class="header-btn" id="nav-toggle">
-                        <svg><use xlink:href="#svg-menu"></use></svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </header>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar container">
+      <a href="#" class="logo">Estudio Michelotti</a>
+      <div class="menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1 class="title">Tu aliado legal de confianza</h1>
+    </div>
+  </header>
 
-    <!-- Hero -->
-    <section class="hero" id="hero">
-        <img src="images/pexels-pavel-danilyuk-8112172.jpg" class="herobg" alt="Hero">
-        <div class="container">
-            <div class="headline" data-aos="fade-up">
-                <div class="top-titles">ESTUDIO JURÍDICO MICHELOTTI & ASOCIADOS</div>
-                <h1 class="stix">Somos un Estudio Jurídico Integral, especialistas en <strong>Derecho de Familia, Sucesorio y Previsional</strong>.</h1>
-                <div class="divider"></div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 section-banner__btn-container">
-                        <a href="#estudio" class="btn btn-primary btn-round-xl">CONOCENOS</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 section-banner__btn-container">
-                        <a href="#appointment" class="btn btn-secondary btn-round-xl">QUIERO ASESORAMIENTO</a>
-                    </div>
-                </div>
-                <div class="google-reviews-hero">
-                    <i class="fab fa-google"></i> Google Reviews
-                    <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        5.0 (+1230 reseñas)
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- SECCIÓN SERVICIOS -->
+  <section id="servicios" class="section light">
+    <div class="container">
+      <h2>Servicios</h2>
+      <p>Descripción breve de servicios...</p>
+      <a href="#contacto" class="btn">Cotizar ahora</a>
+    </div>
+  </section>
 
-    <!-- Áreas de Práctica -->
-    <section class="services" id="servicios" data-aos="fade-up">
-        <div class="container">
-            <div class="headline text-center">
-                <div class="top-titles">ÁREAS DE PRÁCTICA</div>
-                <h2 class="stix">Abogados especialistas en <strong class="primary">Derecho de Familia, Sucesorio y Previsional</strong>.</h2>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="servicebox">
-                        <div class="serviceboxcontainer">
-                            <div class="serviceboximage"><i class="fas fa-users primary"></i></div>
-                            <div class="serviceboxcontent">
-                                <h4>Derecho de Familia</h4>
-                                <p>Especialistas en divorcios, custodia de menores, régimen de visitas y violencia familiar.</p>
-                                <a href="#" class="text-uppercase primary">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="servicebox">
-                        <div class="serviceboxcontainer">
-                            <div class="serviceboximage"><i class="fas fa-balance-scale primary"></i></div>
-                            <div class="serviceboxcontent">
-                                <h4>Derecho Sucesorio</h4>
-                                <p>Testamentos, sucesiones, particiones hereditarias y tramitación completa de herencias.</p>
-                                <a href="#" class="text-uppercase primary">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="servicebox">
-                        <div class="serviceboxcontainer">
-                            <div class="serviceboximage"><i class="fas fa-shield-alt primary"></i></div>
-                            <div class="serviceboxcontent">
-                                <h4>Derecho Previsional</h4>
-                                <p>Jubilaciones, pensiones, reajustes previsionales y reclamos ante ANSES.</p>
-                                <a href="#" class="text-uppercase primary">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="servicebox">
-                        <div class="serviceboxcontainer">
-                            <div class="serviceboximage"><i class="fas fa-handshake primary"></i></div>
-                            <div class="serviceboxcontent">
-                                <h4>Asesoramiento Integral</h4>
-                                <p>Consultoría legal personalizada y representación judicial completa.</p>
-                                <a href="#" class="text-uppercase primary">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- SECCIÓN EQUIPO -->
+  <section id="equipo" class="section dark">
+    <div class="container">
+      <h2>Equipo</h2>
+      <p>Presentación del equipo...</p>
+    </div>
+  </section>
 
-    <!-- Formulario Cita -->
-    <section class="appointment" id="appointment" data-aos="fade-up">
-        <div class="container">
-            <div class="appointmentcontainer">
-                <div class="headline text-center">
-                    <div class="top-titles text-white">AGENDAR CITA</div>
-                    <h2 class="stix text-white">RESERVA HOY UNA CONSULTA</h2>
-                    <p class="text-white">Dejanos tus datos para coordinar día y hora.</p>
-                    <div class="divider"></div>
-                </div>
-                <form id="appointment-form">
-                    <div class="form-group"><input type="text" class="form-control" placeholder="Nombre y apellido" required></div>
-                    <div class="form-group"><input type="email" class="form-control" placeholder="Correo electrónico" required></div>
-                    <div class="form-group"><input type="tel" class="form-control" placeholder="Teléfono" required></div>
-                    <div class="form-group"><textarea class="form-control" rows="4" placeholder="Mensaje"></textarea></div>
-                    <div class="text-center"><button type="submit" class="btn btn-primary btn-round-xl">QUIERO UNA CITA</button></div>
-                </form>
-            </div>
-        </div>
-    </section>
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="section light">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Formulario o datos de contacto...</p>
+    </div>
+  </section>
 
-    <!-- Resto de secciones idénticas -->
-    <!-- "Sobre Nosotros", "Counter", "Proceso de Trabajo", "Blog", "Banner WhatsApp", "Footer"... -->
-    <!-- Incluye exactamente el código que ya tienes en Archivo-de-inspiracion.txt, reemplazando contactos y textos como arriba -->
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Estudio Jurídico Michelotti. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="main.js"></script>
 </body>
 </html>
